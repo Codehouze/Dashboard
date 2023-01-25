@@ -6,6 +6,7 @@ import {
 } from "@syncfusion/ej2-react-charts";
 
 const SparkLine = ({ id, height, width, color, data, type, currentColor }) => {
+
   return (
     <SparklineComponent
       id={id}
@@ -16,12 +17,12 @@ const SparkLine = ({ id, height, width, color, data, type, currentColor }) => {
       fill={color}
       border={{ color: currentColor, width: 2 }}
       dataSource={data}
-      xName="x"
-      yName="y"
+      xName="xval"
+      yName="yval"
       type={type}
       tooltipSettings={{
         visible: true,
-        format: '${x}: data ${y}',
+        format: "${x}: data ${y}",
         trackLineSettings: {
           visible: true,
         },

@@ -3166,12 +3166,12 @@ export const stackedChartData = [
   ],
   [
     { x: 'Jan', y: 111.1 },
-    { x: 'Feb', y: 127.3 },
-    { x: 'Mar', y: 143.4 },
-    { x: 'Apr', y: 159.9 },
-    { x: 'May', y: 159.9 },
-    { x: 'Jun', y: 159.9 },
-    { x: 'July', y: 159.9 },
+    { x: 'Feb', y: 27.3 },
+    { x: 'Mar', y: 43.4 },
+    { x: 'Apr', y: 59.9 },
+    { x: 'May', y: 99.9 },
+    { x: 'Jun', y: 79.9 },
+    { x: 'July', y: 109.9 },
   ],
 ];
 
